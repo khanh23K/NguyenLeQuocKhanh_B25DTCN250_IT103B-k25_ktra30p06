@@ -1,6 +1,6 @@
-let hocSinh = ["Quý, Nam, Lan, Hùng, Nam"];
+let hocSinh = "Quý, Nam, Lan, Hùng, Nam";
 
-let students = hocSinh;
+let students = hocSinh.split(", ");
 
 console.log(students);
 
